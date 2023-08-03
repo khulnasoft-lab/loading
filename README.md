@@ -10,7 +10,7 @@ A collection of highly customisable loading bars for Go CLI apps.
 package main
 
 import (
-    "github.com/liamg/loading/pkg/bar"
+    "github.com/khulnasoft-labs/loading/pkg/bar"
     "time"
 )
 
@@ -31,7 +31,7 @@ func main() {
 
 ```
 
-See the [examples](https://github.com/liamg/loading/tree/main/_examples) or the gallery below for more inspiration.
+See the [examples](https://github.com/khulnasoft-labs/loading/tree/main/_examples) or the gallery below for more inspiration.
 
 ## Bar Anatomy
 

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/liamg/loading/pkg/util"
+	"github.com/khulnasoft-labs/loading/pkg/util"
 )
 
 // Bar is a loading bar
@@ -175,8 +175,9 @@ func (b *Bar) getStats(completion float64) (before string, after string) {
 
 // Finish finishes processing on the bar, and restores the terminal state e.g. cursor visibility
 // You don't need to call this unless:
-//  A. You want to stop the bar before it completes
-//  B. Your bar has an unknown (zero) total and thus cannot know when it is complete
+//
+//	A. You want to stop the bar before it completes
+//	B. Your bar has an unknown (zero) total and thus cannot know when it is complete
 func (b *Bar) Finish() {
 	b.Lock()
 	defer b.Unlock()

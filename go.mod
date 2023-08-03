@@ -1,4 +1,4 @@
-module github.com/liamg/loading
+module github.com/khulnasoft-labs/loading
 
 go 1.18
 

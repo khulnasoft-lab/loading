@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/liamg/loading/pkg/bar"
+	"github.com/khulnasoft-labs/loading/pkg/bar"
 )
 
 func main() {

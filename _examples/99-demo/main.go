@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/liamg/loading/pkg/bar"
+	"github.com/khulnasoft-labs/loading/pkg/bar"
 )
 
 func main() {
