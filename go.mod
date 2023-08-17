@@ -1,4 +1,4 @@
-module github.com/khulnasoft-labs/loading
+module github.com/khulnasoft-lab/loading
 
 go 1.18
 

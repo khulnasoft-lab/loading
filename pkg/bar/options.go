@@ -3,7 +3,7 @@ package bar
 import (
 	"io"
 
-	"github.com/khulnasoft-labs/loading/pkg/util"
+	"github.com/khulnasoft-lab/loading/pkg/util"
 )
 
 // Option is a customisation function that modifies a Bar

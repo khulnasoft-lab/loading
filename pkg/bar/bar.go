@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/khulnasoft-labs/loading/pkg/util"
+	"github.com/khulnasoft-lab/loading/pkg/util"
 )
 
 // Bar is a loading bar

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/khulnasoft-labs/loading/pkg/bar"
+	"github.com/khulnasoft-lab/loading/pkg/bar"
 )
 
 func main() {
