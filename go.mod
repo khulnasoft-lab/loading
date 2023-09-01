@@ -3,7 +3,7 @@ module github.com/khulnasoft-lab/loading
 go 1.18
 
 require (
-	github.com/stretchr/testify v1.7.5
+	github.com/stretchr/testify v1.8.4
 	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1
 )
 
